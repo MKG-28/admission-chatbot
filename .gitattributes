@@ -1,0 +1,14 @@
+# Set default behavior to automatically detect text vs binary files
+* text=auto
+
+# Ensure Python files use LF line endings
+*.py text eol=lf
+
+# Ensure text files use LF
+*.txt text eol=lf
+
+# Ensure markdown files use LF
+*.md text eol=lf
+
+# Ensure Excel files are treated as binary
+*.xlsx binary
